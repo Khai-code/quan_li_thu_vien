@@ -16,6 +16,10 @@ public partial class DBContext : DbContext
     {
     }
 
+
+
+
+
     public virtual DbSet<Acount> Acounts { get; set; }
 
     public virtual DbSet<BbNhanLai> BbNhanLais { get; set; }
